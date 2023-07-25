@@ -1,0 +1,64 @@
+{
+	"name": "Character_Animations",
+	"plugin-id": "Sprite",
+	"sid": 163250569933200,
+	"instanceVariables": [
+		{
+			"name": "player_UID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 874195255009055
+		},
+		{
+			"name": "hit_mesh_position",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 165636994165324
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 632495709676623
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 994318064866269
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 680339785730778
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "warpobject",
+			"name": "WarpObject"
+		}
+	],
+	"members": [
+		"char_Gornom",
+		"char_Julio",
+		"char_Mantis",
+		"char_CandyGuy",
+		"char_Tucker",
+		"char_Cleitin",
+		"char_Balldemon",
+		"char_CaramelMutt",
+		"char_MeatMonster",
+		"char_Puri",
+		"char_Marcos3D",
+		"char_Broccoli",
+		"char_Jack",
+		"char_MarcosSuspeito",
+		"char_Poyo",
+		"char_Mariou",
+		"char_Luana",
+		"char_KidJack"
+	]
+}

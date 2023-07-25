@@ -1,0 +1,22 @@
+{
+	"name": "Stage_Collisions",
+	"plugin-id": "Tilemap",
+	"sid": 744507581763718,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"col_Poyo",
+		"col_Marcom",
+		"col_Clouds",
+		"col_Waterfall",
+		"col_Mariou",
+		"col_Racoon",
+		"col_Broccoli",
+		"col_Kohoza",
+		"col_Balldemon",
+		"col_Roots",
+		"col_Suspeito",
+		"col_Dream"
+	]
+}

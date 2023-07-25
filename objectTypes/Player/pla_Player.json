@@ -1,0 +1,251 @@
+{
+	"name": "pla_Player",
+	"plugin-id": "Sprite",
+	"sid": 377325050008522,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "input",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 198327539470564
+		},
+		{
+			"name": "character",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 490478881064555
+		},
+		{
+			"name": "jumps",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 581492880116366
+		},
+		{
+			"name": "jumps_max",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 904944205135686
+		},
+		{
+			"name": "char_UID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 815465252580537
+		},
+		{
+			"name": "player_ID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 904318487526000
+		},
+		{
+			"name": "step_UID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 435559505896451
+		},
+		{
+			"name": "vertical_direction",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 555225917159863
+		},
+		{
+			"name": "horizontal_direction",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 224492835628295
+		},
+		{
+			"name": "attacking",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 675032223891397
+		},
+		{
+			"name": "variable_x",
+			"type": "number",
+			"desc": "For the camera",
+			"show": true,
+			"sid": 520583330211564
+		},
+		{
+			"name": "variable_y",
+			"type": "number",
+			"desc": "For the camera",
+			"show": true,
+			"sid": 756377695987154
+		},
+		{
+			"name": "hp_percentage",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 224321067971143
+		},
+		{
+			"name": "hitstun_timer",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 296593304364996
+		},
+		{
+			"name": "can_move",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 108001665205761
+		},
+		{
+			"name": "can_attack",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 894366586434773
+		},
+		{
+			"name": "knockbackX_tween_destination",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 685276447081350
+		},
+		{
+			"name": "knockbackY_tween_destination",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 556652703440563
+		},
+		{
+			"name": "jump_buffered",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 525950052708829
+		},
+		{
+			"name": "attack_buffered",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 897172578610597
+		},
+		{
+			"name": "onair_timer",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 779727956787383
+		},
+		{
+			"name": "jump_short",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 513953441488716
+		},
+		{
+			"name": "can_upspecial",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 657199044434470
+		},
+		{
+			"name": "can_downspecial",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 180715073306517
+		},
+		{
+			"name": "can_sidespecial",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 610293656862762
+		},
+		{
+			"name": "loaded",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 658695190065995
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 525814307848484
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 104310199129155
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 985854819481442
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 882635857730188
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine2",
+			"sid": 843566871486961
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 396401930741734
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 165969,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 149853590755969,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

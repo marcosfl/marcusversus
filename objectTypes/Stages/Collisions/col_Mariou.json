@@ -1,0 +1,103 @@
+{
+	"name": "col_Mariou",
+	"plugin-id": "Tilemap",
+	"sid": 585444981638182,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 161503205391170
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 48,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4246770,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {
+		"1": {
+			"collisionPoly": {
+				"points": [
+					0,
+					0,
+					0.5,
+					0,
+					0.5,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"2": {
+			"collisionPoly": {
+				"points": [
+					0,
+					1,
+					1,
+					0,
+					1,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"3": {
+			"collisionPoly": {
+				"points": [
+					0,
+					1,
+					1,
+					0.5,
+					1,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"4": {
+			"collisionPoly": {
+				"points": [
+					0,
+					0.5,
+					1,
+					0,
+					1,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"5": {
+			"collisionPoly": {
+				"points": [
+					0.5,
+					0,
+					1,
+					0,
+					1,
+					1,
+					0.5,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		}
+	}
+}

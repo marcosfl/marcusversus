@@ -1,0 +1,49 @@
+{
+	"name": "stage_RootsLighting",
+	"plugin-id": "Sprite",
+	"sid": 320806732215382,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 640,
+						"height": 360,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3769251,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.390625,
+								0,
+								0.390625,
+								0.6944444444444444,
+								0,
+								0.6944444444444444
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 965275799702083,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

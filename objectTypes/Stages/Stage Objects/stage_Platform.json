@@ -1,0 +1,48 @@
+{
+	"name": "stage_Platform",
+	"plugin-id": "Sprite",
+	"sid": 913896860621098,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 638006221863629
+		},
+		{
+			"behaviorId": "jumpthru",
+			"name": "Jumpthru",
+			"sid": 464770876557529
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 66,
+						"height": 18,
+						"originX": 0.5,
+						"originY": 0.5555555555555556,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9149332,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 181208695545025,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

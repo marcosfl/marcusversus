@@ -1,0 +1,12 @@
+{
+	"name": "Stage_Collisions_Sprites",
+	"plugin-id": "Sprite",
+	"sid": 187585780200090,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"stage_Platform",
+		"stage_RootsPlatform"
+	]
+}

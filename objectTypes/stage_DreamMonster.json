@@ -1,0 +1,121 @@
+{
+	"name": "stage_DreamMonster",
+	"plugin-id": "Sprite",
+	"sid": 256879498450305,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 640,
+						"height": 360,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2389982,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0,
+								0.540625,
+								0.18333333333333332,
+								0.5,
+								0.19444444444444445,
+								0.453125,
+								0.19444444444444445
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 360,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8208016,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0,
+								0.540625,
+								0.18333333333333332,
+								0.5,
+								0.19444444444444445,
+								0.453125,
+								0.19444444444444445
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 360,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4172610,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0,
+								0.540625,
+								0.18333333333333332,
+								0.5,
+								0.19444444444444445,
+								0.453125,
+								0.19444444444444445
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 360,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9308390,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0,
+								0.540625,
+								0.18333333333333332,
+								0.5,
+								0.19444444444444445,
+								0.453125,
+								0.19444444444444445
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 412299873036037,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 3
+			}
+		],
+		"subfolders": []
+	}
+}

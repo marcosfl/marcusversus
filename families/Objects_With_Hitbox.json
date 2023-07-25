@@ -1,0 +1,11 @@
+{
+	"name": "Objects_With_Hitbox",
+	"plugin-id": "Sprite",
+	"sid": 322537610974032,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"stage_BalldemonEnemy"
+	]
+}

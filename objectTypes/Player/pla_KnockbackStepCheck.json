@@ -1,0 +1,58 @@
+{
+	"name": "pla_KnockbackStepCheck",
+	"plugin-id": "Sprite",
+	"sid": 662120992818653,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "player_UID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 831290017118517
+		},
+		{
+			"name": "inside_solid",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 542187611535735
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 297341826413114
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6438527,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 820599168443860,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

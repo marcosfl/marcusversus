@@ -1,0 +1,77 @@
+{
+	"name": "stage_Forklift",
+	"plugin-id": "Sprite",
+	"sid": 972281046505966,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "direction",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 710720105470368
+		},
+		{
+			"name": "moving_timer",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 302370018784790
+		},
+		{
+			"name": "wait_timer",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 747703750682785
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 701988879122862
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 320,
+						"height": 180,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3302570,
+						"collisionPoly": {
+							"points": [
+								0.18124998807907106,
+								0.7111111111111107,
+								0.7999999999999972,
+								0.7111111111111096,
+								0.7999999999999972,
+								0.7444444444444454,
+								0.18124999999999986,
+								0.7444444444444445
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 679107260462667,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

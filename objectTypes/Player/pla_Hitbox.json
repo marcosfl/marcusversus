@@ -1,0 +1,115 @@
+{
+	"name": "pla_Hitbox",
+	"plugin-id": "Sprite",
+	"sid": 758679221858089,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "damage",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 232874250750965
+		},
+		{
+			"name": "hitstun",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 876784927005487
+		},
+		{
+			"name": "knockback_horizontal",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 804836415194312
+		},
+		{
+			"name": "knockback_vertical",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 655112594158098
+		},
+		{
+			"name": "end_frame",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 483001063978705
+		},
+		{
+			"name": "char_projectile_uid",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 573789595671346
+		},
+		{
+			"name": "player_uid",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 817845796139932
+		},
+		{
+			"name": "hit_uids",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 754711072826888
+		},
+		{
+			"name": "hituids_total",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 720073951083083
+		},
+		{
+			"name": "projectile",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 652697706599809
+		},
+		{
+			"name": "object_UID",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 781326628148509
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3384722,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 172334958805762,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

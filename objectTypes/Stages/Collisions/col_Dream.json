@@ -1,0 +1,103 @@
+{
+	"name": "col_Dream",
+	"plugin-id": "Tilemap",
+	"sid": 732845276389495,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 568772189872897
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 48,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9611845,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {
+		"1": {
+			"collisionPoly": {
+				"points": [
+					0,
+					0,
+					0.5,
+					0,
+					0.5,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"2": {
+			"collisionPoly": {
+				"points": [
+					0,
+					1,
+					1,
+					0,
+					1,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"3": {
+			"collisionPoly": {
+				"points": [
+					0,
+					1,
+					1,
+					0.5,
+					1,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"4": {
+			"collisionPoly": {
+				"points": [
+					0,
+					0.5,
+					1,
+					0,
+					1,
+					1,
+					0,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		},
+		"5": {
+			"collisionPoly": {
+				"points": [
+					0.5,
+					0,
+					1,
+					0,
+					1,
+					1,
+					0.5,
+					1
+				]
+			},
+			"useCollisionPoly": true
+		}
+	}
+}
