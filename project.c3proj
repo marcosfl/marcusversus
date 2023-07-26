@@ -29,8 +29,22 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Browser",
+			"name": "Navegador",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "List",
+			"name": "Lista",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -199,7 +213,8 @@
 					"AJAX",
 					"Keyboard",
 					"Gamepad",
-					"Audio"
+					"Audio",
+					"Navegador"
 				],
 				"subfolders": [],
 				"name": "Plugins"
@@ -322,6 +337,14 @@
 				],
 				"subfolders": [],
 				"name": "Attacks"
+			},
+			{
+				"items": [
+					"CharactersDropdown",
+					"StagesDropdown"
+				],
+				"subfolders": [],
+				"name": "Debug"
 			}
 		]
 	},
@@ -359,6 +382,14 @@
 					"sid": 646748776147663,
 					"script-info": {
 						"purpose": "main"
+					}
+				},
+				{
+					"name": "eventImport.js",
+					"type": "application/javascript",
+					"sid": 766194694284809,
+					"script-info": {
+						"purpose": "imports-for-events"
 					}
 				}
 			],
@@ -587,6 +618,14 @@
 					"sid": 994607537051846,
 					"file-info": {
 						"purpose": "none"
+					}
+				},
+				{
+					"name": "style_Editor.css",
+					"type": "text/css",
+					"sid": 317999553284744,
+					"file-info": {
+						"purpose": "stylesheet"
 					}
 				}
 			],

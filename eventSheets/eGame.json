@@ -32,6 +32,41 @@
 			"sid": 594190495236403
 		},
 		{
+			"eventType": "comment",
+			"text": "Character Dropdown Configuration"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 395643120589092
+				}
+			],
+			"actions": [
+				{
+					"id": "set-css-style",
+					"objectClass": "CharactersDropdown",
+					"sid": 946178816700204,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "StagesDropdown",
+					"sid": 954271554169749,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				}
+			],
+			"sid": 877084342217137
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -481,7 +516,7 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 127205068000985
+					"sid": 691996129248655
 				}
 			],
 			"actions": [],
@@ -493,7 +528,7 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "pla_Player",
-							"sid": 163702021769277,
+							"sid": 556068182567204,
 							"parameters": {
 								"instance-variable": "input",
 								"comparison": 0,
@@ -503,41 +538,16 @@
 					],
 					"actions": [
 						{
-							"id": "set-text",
-							"objectClass": "TextInput_Character",
-							"sid": 129029906809374,
-							"parameters": {
-								"text": "character"
-							}
-						},
-						{
-							"id": "set-text",
-							"objectClass": "TextInput_Stage",
-							"sid": 427242178057724,
-							"parameters": {
-								"text": "stage"
-							}
-						},
-						{
 							"id": "set-instvar-value",
 							"objectClass": "pla_Player",
-							"sid": 779329631346916,
+							"sid": 721518974316368,
 							"parameters": {
 								"instance-variable": "character",
-								"value": "TextInput_Character.Text"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "stage_Backgrounds",
-							"sid": 883422375695273,
-							"parameters": {
-								"animation": "stage",
-								"from": "beginning"
+								"value": "character"
 							}
 						}
 					],
-					"sid": 394432572012087
+					"sid": 847467344932917
 				},
 				{
 					"eventType": "block",
@@ -615,6 +625,15 @@
 						"y": "0",
 						"create-hierarchy": false,
 						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "stage_Backgrounds",
+					"sid": 162751015863303,
+					"parameters": {
+						"animation": "stage",
+						"from": "beginning"
 					}
 				}
 			],
@@ -12919,11 +12938,18 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 795108897803843,
+					"id": "on-clicked",
+					"objectClass": "CharactersDropdown",
+					"sid": 841619396135447
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 583499671276747,
 					"parameters": {
-						"key": 13
+						"first-value": "CharactersDropdown.SelectedText",
+						"comparison": 1,
+						"second-value": "character"
 					}
 				}
 			],
@@ -12931,28 +12957,56 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 856321509097378,
+					"sid": 783435725761961,
 					"parameters": {
 						"variable": "character",
-						"value": "TextInput_Character.Text"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 201980061934878,
-					"parameters": {
-						"variable": "stage",
-						"value": "TextInput_Stage.Text"
+						"value": "CharactersDropdown.SelectedText"
 					}
 				},
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 918360616279538
+					"sid": 756162127610001
 				}
 			],
-			"sid": 862984058614229
+			"sid": 867997476956545
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "StagesDropdown",
+					"sid": 165747160500230
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 123498161895583,
+					"parameters": {
+						"first-value": "StagesDropdown.SelectedText",
+						"comparison": 1,
+						"second-value": "stage"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 255980259411140,
+					"parameters": {
+						"variable": "stage",
+						"value": "StagesDropdown.SelectedText"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 245187031728050
+				}
+			],
+			"sid": 560274449983360
 		}
 	],
 	"sid": 837096701711000

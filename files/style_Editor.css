@@ -1,0 +1,11 @@
+#dropdown {
+    background-color: antiquewhite;
+    border-radius: 1em;
+    padding: 0.5em;
+    border: 2px solid white;
+}
+
+#dropdown:hover{
+	background-color: bisque;
+    box-shadow: 0px 2px 5px #000000ee;
+}
